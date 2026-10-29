@@ -1,0 +1,10 @@
+#EXTM3U
+# Проверенные вручную прогрессивные потоки (CDN Wink) для каналов,
+# у которых в основном списке поток чересстрочный и на стике не играет.
+#EXTINF:-1 group-title="Развлекательные",СТС
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",2x2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+# Ретрансляции с VK Play Live (live.vkvideo.ru) — приложение достаёт поток само.
+#EXTINF:-1 group-title="Детские" tvg-logo="https://smotret.tv/images/kanal-disney.webp",Канал Disney
+vkplay:kanaldisneyonline

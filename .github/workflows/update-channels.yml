@@ -1,0 +1,67 @@
+# Пересобирает список каналов по расписанию. Приложение на стике скачивает
+# channels.m3u и логотипы из этого репозитория.
+#
+# Сервер GitHub стоит за границей. Часть источников отдаёт потоки только в Россию.
+# Поэтому prepare.py запускают с ключом --ci. В этом режиме скрипт берёт
+# результаты проверки из файла sources/probe_cache.json.
+# Файл обновляют запуском prepare.py с компьютера в России.
+name: Обновление каналов
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-channels
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Инструменты
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg imagemagick
+          # prepare.py вызывает magick (ImageMagick 7), в Ubuntu — convert (6) с тем же синтаксисом
+          command -v magick || sudo ln -s "$(command -v convert)" /usr/local/bin/magick
+
+      - name: Источники (если источник отдал заметно меньше — оставляем прежний файл)
+        run: |
+          refresh() {  # $1 — файл, остальное — команда
+            out="$1"; shift
+            if "$@" > "$out.new"; then
+              old=$(grep -c '^#EXTINF' "$out" || echo 0)
+              new=$(grep -c '^#EXTINF' "$out.new" || echo 0)
+              echo "$out: было $old, стало $new"
+              if [ "$new" -ge $((old * 7 / 10)) ]; then mv "$out.new" "$out"; else rm "$out.new"; fi
+            else
+              rm -f "$out.new"
+            fi
+          }
+          refresh sources/smotret.m3u python3 -I tools/smotret.py
+          refresh sources/rutube.m3u python3 -I tools/rutube.py sources/iptvru.m3u sources/smotret.m3u
+
+      - name: Сборка списка
+        run: |
+          python3 -I tools/prepare.py --ci sources/iptvru.m3u sources/rutube.m3u sources/extra.m3u sources/smotret.m3u
+          python3 -I tools/epg_ids.py sources/iptvru.m3u
+          n=$(grep -c '^#EXTINF' channels.m3u)
+          echo "каналов: $n"
+          [ "$n" -ge 300 ] || { echo "подозрительно мало каналов — не публикуем"; exit 1; }
+
+      - name: Коммит
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channels.m3u logos sources
+          if git diff --cached --quiet; then echo "без изменений"; exit 0; fi
+          git commit -m "Обновление каналов $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          git push
