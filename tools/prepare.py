@@ -346,6 +346,22 @@ CACHE_KEEP_DAYS = 60
 RUNTIME = ("okru:", "vitrina:", "vkplay:", "https://bl.rutube.ru/")
 
 
+def quality(measurement, cached, ci):
+    """Возвращает (чересстрочный, высота кадра) для сортировки ссылок.
+
+    Замер из-за границы ненадёжен: «Витрина» отдаёт туда заглушку 360p,
+    Wink — другой плейлист. Поэтому в режиме CI замер из России важнее.
+    """
+    if ci and cached and cached.get("ok") and "height" in cached:
+        return cached.get("interlaced", False), cached["height"]
+    return measurement
+
+
+def writes_cache(ci):
+    """Кэш хранит только замеры из России. Запуск в CI его не меняет."""
+    return not ci
+
+
 def load_cache():
     try:
         return json.load(open(CACHE_PATH, encoding="utf-8"))
@@ -386,21 +402,21 @@ def main():
     measured = [c for c in alive if c["measured"]]
     with cf.ThreadPoolExecutor(16) as ex:
         info = list(ex.map(lambda c: safe(inspect, c["url"]) if c["hls"] else (False, 0), measured))
-    for ch, (inter, height) in zip(measured, info):
-        ch["interlaced"], ch["height"] = inter, height
+    for ch, measurement in zip(measured, info):
+        ch["interlaced"], ch["height"] = quality(measurement, cache.get(ch["key"]), ci)
     for ch in alive:
         if not ch["measured"]:
             cached = cache.get(ch["key"], {})
             ch["interlaced"], ch["height"] = cached.get("interlaced", False), cached.get("height", 0)
-    # кэш замеров: из России пишем всё, из CI — только то, что реально открылось
-    for ch in flat:
-        if ch["measured"]:
-            cache[ch["key"]] = {"ok": True, "hls": ch["hls"], "url": ch["url"],
-                                "interlaced": ch.get("interlaced", False),
-                                "height": ch.get("height", 0), "ts": int(now)}
-        elif not ci:
-            cache[ch["key"]] = {"ok": False, "ts": int(now)}
-    save_cache(cache, now)
+    if writes_cache(ci):
+        for ch in flat:
+            if ch["measured"]:
+                cache[ch["key"]] = {"ok": True, "hls": ch["hls"], "url": ch["url"],
+                                    "interlaced": ch.get("interlaced", False),
+                                    "height": ch.get("height", 0), "ts": int(now)}
+            else:
+                cache[ch["key"]] = {"ok": False, "ts": int(now)}
+        save_cache(cache, now)
     flags = [ch["interlaced"] for ch in alive]
     channels = merge([[c for c in items if c["ok"]] for items in sources])
     # сначала прогрессивные, среди них — лучшее разрешение; при равных — приоритет источника

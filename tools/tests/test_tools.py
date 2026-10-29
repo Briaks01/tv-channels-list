@@ -69,6 +69,24 @@ class UnwrapMasterTest(unittest.TestCase):
         self.assertEqual("http://h/ch/video.m3u8", prepare.unwrap_master("http://h/ch/video.m3u8", body))
 
 
+class MeasurementTest(unittest.TestCase):
+    RUSSIA = {"ok": True, "hls": True, "interlaced": False, "height": 1080, "ts": 0}
+
+    def test_ci_takes_quality_from_russian_measurement(self):
+        # Из-за границы «Витрина» отдаёт заглушку 360p.
+        self.assertEqual((False, 1080), prepare.quality((False, 360), self.RUSSIA, ci=True))
+
+    def test_ci_uses_own_measurement_without_russian_one(self):
+        self.assertEqual((False, 720), prepare.quality((False, 720), None, ci=True))
+
+    def test_run_from_russia_uses_fresh_measurement(self):
+        self.assertEqual((True, 576), prepare.quality((True, 576), self.RUSSIA, ci=False))
+
+    def test_ci_does_not_write_cache(self):
+        self.assertFalse(prepare.writes_cache(ci=True))
+        self.assertTrue(prepare.writes_cache(ci=False))
+
+
 class FederalFirstTest(unittest.TestCase):
     def test_federal_channels_go_first_in_fixed_order(self):
         channels = prepare.merge([[
