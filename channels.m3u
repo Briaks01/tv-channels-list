@@ -15,7 +15,7 @@ okru:10076961578583
 vitrina:https://player.mediavitrina.ru/5tv_v2/5tv/smotret_tv_web/player.html
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 #EXTINF:-1 group-title="Федеральные" x-logo="kultura" x-hls="1" x-mailru="1169" x-epg="kultura",Россия К
-https://bl.rutube.ru/livestream/d0c0d69362edfbe706cb82d973439bb5/index.m3u8?s=uLoeZmYa7A1RkHMtnViXEw&e=2093263268&scheme=https
+https://bl.rutube.ru/livestream/d0c0d69362edfbe706cb82d973439bb5/index.m3u8?s=zlX7P_jnhH76NpfEIOre6Q&e=2093203970&scheme=https
 https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
 #EXTINF:-1 group-title="Федеральные" x-logo="rossia-24" x-hls="1" x-mailru="2519" x-epg="rossia-24",Россия 24
 https://bl.rutube.ru/livestream/ad6ba2e9e587406b29978b861b7b7dd1/index.m3u8?s=QDopPJufKhLXkM3QtUPJDQ&e=2093203889&scheme=https
@@ -96,7 +96,7 @@ okru:2904875671059
 #EXTINF:-1 group-title="Детские" x-logo="533eb517e108" x-hls="1" x-mailru="2424" x-epg="sovmultf",Советские мультфильмы
 okru:17068812803590
 #EXTINF:-1 group-title="Детские" x-logo="38718b8e877b" x-hls="1",Ключайка
-https://bl.rutube.ru/livestream/ed497bdb28846536f3928849f8f7e469/index.m3u8?s=2bgVrzQWwGn-zU88Tvl3rg&e=2093398547&scheme=https
+https://bl.rutube.ru/livestream/ed497bdb28846536f3928849f8f7e469/index.m3u8?s=XePp9rhQO0eTXHeauO7P5Q&e=2093424935&scheme=https
 #EXTINF:-1 group-title="Детские" x-logo="3a762695a47e" x-hls="1",Том и Джерри
 https://autopilot.catcast.tv/mobile.m3u8?channel_id=43075&token=aad6c7d45401c487f32cf0f197e682de
 #EXTINF:-1 group-title="Детские" x-logo="ebe9460d5a73" x-hls="1",Балапан
@@ -174,9 +174,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 http://flussonic.mkpnet.ru/tv-17540fb90079a865/tracks-v1a1l1/mono.ts.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="rutube-tv" x-hls="1" x-epg="rutube-tv",RUTUBE TV
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_og5iHG6xVp0V3KXYMB0g&e=2070623479&scheme=https
-#EXTINF:-1 group-title="Развлекательные" x-logo="belarus2" x-hls="1" x-epg="belarus2",Беларусь 2 HD
-https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="kaleydoskop-tv" x-hls="1" x-mailru="2111" x-epg="kaleydoskop-tv",Калейдоскоп ТВ
 http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 https://serv25.vintera.tv/kaleidoscop/kaleidoscop_sd/playlist.m3u8
@@ -207,7 +204,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="06e0174a1200" x-hls="1",STAR MEDIA
 https://bl.rutube.ru/livestream/988ec7330fa38c8a1e5980ba7d02dbbe/index.m3u8?s=CQbw1xTFIs7hIlmYHzektQ&e=2093203954&scheme=https
-https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=XuNQc-WSbGOG6UcoUejP9g&e=2093398566&scheme=https
+https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=tbiZbnj3BkHzfMoNt2NIkA&e=2093424954&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="fbb2dd04eb65" x-hls="1" x-epg="kino-i-zhizn",Кино и Жизнь
 https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=uJIthJwuIgEToObHHa9kSg&e=2093203956&scheme=https
 okru:7496346312218
@@ -219,9 +216,8 @@ https://bl.rutube.ru/livestream/5e5c002f266cbb781058c145b0522b5c/index.m3u8?s=Ol
 https://s1.tv-nano.com/Luxury_rec/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-hls="1",НАШЕ АНИМЕ
 https://bl.rutube.ru/livestream/ec5267347fa50d03edba227906eba679/index.m3u8?s=VCo0GWUaEya6j0_16LsobQ&e=2093203961&scheme=https
-#EXTINF:-1 group-title="Развлекательные" x-logo="6eb30fd5beb2" x-hls="1" x-epg="belarus1",Беларусь 1
+#EXTINF:-1 group-title="Развлекательные" x-hls="1" x-epg="belarus1",Беларусь 1
 https://bl.rutube.ru/livestream/da760ca73396be9f7bc1589dba81036b/index.m3u8?s=YI4mHFQuJUq-VIGemLy38A&e=2093203973&scheme=https
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="65ade7c99e3c" x-hls="1",BACKUS TV
 okru:15162247749298
 #EXTINF:-1 group-title="Развлекательные" x-logo="b7ece93539bd" x-hls="1",BACKUS TV dark
@@ -262,6 +258,8 @@ okru:13251479608919
 okru:14019744177775
 #EXTINF:-1 group-title="Развлекательные" x-logo="4d21532658eb" x-hls="1" x-epg="sportmaster-tv",ТВ Бум
 https://kb.catcast.tv/content/49702/index.m3u8
+#EXTINF:-1 group-title="Развлекательные" x-logo="FX" x-hls="1" x-epg="fox",FX
+https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=qD8OI0O0Hz9o1bBj4ORHIg&e=2093424954&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="4aad4f0e2081" x-hls="1",STR TV
 okru:14572047113839
 #EXTINF:-1 group-title="Развлекательные" x-logo="fbad5699a486" x-hls="1",Мистер Бин
@@ -279,12 +277,16 @@ https://lbgo.bozztv.com/07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
 okru:14049845452459
 #EXTINF:-1 group-title="Развлекательные" x-logo="4b2324a06de5" x-hls="1",Советские фильмы 2
 https://fl1003.bozztv.com/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Развлекательные" x-logo="35ca8b7a299a" x-hls="1",Старые фильмы
+https://hls.peers.tv/streaming/kino24/126/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3OTM1MTEzNTYsImlhdCI6MTc5MzQyNDk1NiwiY2lkIjo4MSwidWlkIjoxMDg5NDkzMjY1LCJyZWciOmZhbHNlLCJpcCI6MjU0OTMyMjIxOH0.v7FTqO8E-dOln5r7Pdbx6KfZB5fD7fPKE9Jm4RKoPbU
 #EXTINF:-1 group-title="Развлекательные" x-logo="Pro100TV" x-hls="1" x-mailru="2896",Pro100TV
 okru:12715185872555
 #EXTINF:-1 group-title="Развлекательные" x-logo="VHS" x-hls="1" x-epg="vhshd",VHS
 https://autopilot.catcast.tv/mobile.m3u8?channel_id=40675&token=faf91d13282d63657946cdd32599b99b
 #EXTINF:-1 group-title="Развлекательные" x-logo="d97d9b4c74f5" x-hls="1",MB TV
 https://live20.bozztv.com/giatv/giatv-tvzovlivestream/tvzovlivestream/chunks.m3u8
+#EXTINF:-1 group-title="Развлекательные" x-logo="e8674c2a7ed4" x-hls="1" x-mailru="2274" x-epg="dialogi-o-rybalke",Диалоги о рыбалке
+https://msk2.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3OTM1MTEzNTcsImlhdCI6MTc5MzQyNDk1NywiY2lkIjo4MSwidWlkIjoxMDg5NDkzMjY3LCJyZWciOmZhbHNlLCJpcCI6MjU0OTMyMjIxOH0.K9klVnDTDI_Uby4ysIreKl2xKJVoaUC43K0CMKrGjRY
 #EXTINF:-1 group-title="Развлекательные" x-logo="1b7a2f11949d" x-hls="1",Тномер
 https://autopilot.catcast.tv/mobile.m3u8?channel_id=39971&token=336bf29303fbae75ee5594994b0a02c2
 #EXTINF:-1 group-title="Развлекательные" x-logo="3a4e88cbe77f" x-hls="1" x-mailru="1717" x-epg="8kanal-ru",8 канал
@@ -311,8 +313,6 @@ https://autopilot.catcast.tv/mobile.m3u8?channel_id=38847&token=a63367e16351d0eb
 https://autopilot.catcast.tv/mobile.m3u8?channel_id=40686&token=a122ed7c0961ac3bc8a58a9597c4002a&server=v2.catcast.tv
 #EXTINF:-1 group-title="Развлекательные" x-logo="37ff8e61fd73" x-hls="1",Индийские фильмы
 https://s7.iptv-24.net/1444/index.m3u8
-#EXTINF:-1 group-title="Развлекательные" x-logo="87fdedbbff0b" x-hls="1",Дорамы
-https://bl.rutube.ru/livestream/5e3edd063411550ed6b67a8c0d7c96ea/index.m3u8?s=PVCaSDoDMXCuABhKmHsV6Q&e=2093398576&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="d7361553db37" x-hls="1" x-mailru="3217" x-epg="kineko",Кинеко
 https://s7.iptv-24.net/1273/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="97084a44640c" x-hls="1" x-mailru="2252",7 TV
@@ -326,7 +326,7 @@ okru:2961812233904
 #EXTINF:-1 group-title="Развлекательные" x-logo="569f2e0b9351" x-hls="1" x-epg="tvoetv-humor",Твоё ТВ Юмор
 okru:9349912796790
 #EXTINF:-1 group-title="Развлекательные" x-logo="e01e4001361d" x-hls="1",Центральное телевидение (ЦТВ)
-https://bl.rutube.ru/livestream/d751dcb6c61658ec76461bc166d6e529/index.m3u8?s=gJi7EHqsqCF3VowBzHW_SA&e=2093398581&scheme=https
+https://bl.rutube.ru/livestream/d751dcb6c61658ec76461bc166d6e529/index.m3u8?s=m0cnAwtSVSxKaUxD_Wvz9Q&e=2093424971&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="a4fde40e54fa" x-hls="1",ТВЦ
 okru:11431932468811
 #EXTINF:-1 group-title="Развлекательные" x-logo="54f06b9cb6d1" x-hls="1" x-mailru="3203" x-epg="zvezda-plus",Звезда Плюс
@@ -361,8 +361,6 @@ https://shoppinglive.mediacdn.ru/cdn/shopping/playlist.m3u8
 https://v4.proofix.ru/vitrina-live/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="96721a2d39d8" x-hls="1" x-mailru="2043" x-epg="yuvelirochka",Ювелирочка
 https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1 group-title="Развлекательные" x-logo="66d0e2f3a4fa" x-hls="1",СТВ
-https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="ee2315f73eed" x-hls="1" x-epg="rtr-belarus",РТР-Беларусь
 okru:13957217984178
 #EXTINF:-1 group-title="Развлекательные" x-logo="f8cd267d9633" x-hls="1" x-epg="ntv-belarus",НТВ-Беларусь
@@ -379,8 +377,9 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="belarus5" x-hls="1" x-epg="belarus5",Беларусь 5 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5/playlist.m3u8
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="start" x-hls="1" x-mailru="2301" x-epg="start",Старт
+https://hls.peers.tv/streaming/start/16/tvrecw/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3OTM1MTEzNDIsImlhdCI6MTc5MzQyNDk0MiwiY2lkIjo4MSwidWlkIjoxMDg5NDkzMjQ1LCJyZWciOmZhbHNlLCJpcCI6MjU0OTMyMjIxOH0.Tne-mjt0fROpPl6AZhzS-FUqGpDv2DCcXZ7XlGlTCxo
 https://bl.webcaster.pro/media/playlist/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/480p/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8?live=15&ref=https://tvstart.ru/channels/tv-start/
 #EXTINF:-1 group-title="Спорт" x-logo="start-basket" x-hls="1" x-epg="start-basket",Старт Баскет
 https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8
@@ -391,7 +390,7 @@ http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="football-ru" x-hls="1" x-mailru="2802" x-epg="football-ru",Футбол HD
 http://178.124.179.122:8088/Setanta1/index.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="60786a8ddc64" x-hls="1" x-epg="voleybol",Телеканал Волейбол
-https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=JSKkIgcwd1d1ShTQvMqtEg&e=2093398554&scheme=https
+https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=zZK3lD9ecjPXWR-KWdnRSg&e=2093424942&scheme=https
 #EXTINF:-1 group-title="Спорт" x-logo="325df3d9b41d" x-hls="1",Futbol TV
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="d7ef770ab185" x-hls="1",FITE TV
@@ -428,8 +427,6 @@ https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
 https://1840769862.rsc.cdn77.org/FTF/LSN_SCTE.m3u8
 #EXTINF:-1 group-title="Новости" x-logo="euronews" x-hls="1" x-epg="euronews",Euronews
 https://stream1.cinerama.uz/1024/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Новости" x-logo="belarus24" x-hls="1" x-mailru="1385" x-epg="belarus24",Беларусь 24 HD
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 group-title="Новости" x-logo="vmeste-rf" x-hls="1" x-mailru="1813" x-epg="vmeste-rf",ВМЕСТЕ:РФ HD
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 https://bl.rutube.ru/livestream/f6a6d5c955180d0d0f80c66d0b6150d3/index.m3u8?s=6DbAdeILrj1R0gxVVdEJWw&e=2093203888&scheme=https
@@ -524,8 +521,6 @@ okru:7992906555024
 https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="0f304935305b" x-hls="1",Мособр ТВ
 okru:3516701089374
-#EXTINF:-1 group-title="Познавательные" x-logo="a5932fea4888" x-hls="1",Русский мир
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=42204&token=2484f76a2cffca0427024934373e834b
 #EXTINF:-1 group-title="Познавательные" x-logo="175d9e6a9d4e" x-hls="1",ЛАДА
 https://live.kinescopecdn.net/on-air/ba0fa61f-647c-4ee0-9992-89f6744efa86/6314a406-3627-454d-8b82-f6f0e86db920/master.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="ecd1ba62aaa5" x-hls="1" x-epg="xuzur-tv",Хузур ТВ
@@ -536,6 +531,8 @@ https://edge3.uk.kab.tv/live/tvrus-rus-high/playlist.m3u8
 https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="88bd5ab3c7d3" x-hls="1" x-mailru="1612" x-epg="nano-tv",Нано
 https://s1.tv-nano.com/Nano_rec/index.fmp4.m3u8
+#EXTINF:-1 group-title="Познавательные" x-logo="3078374deb89" x-hls="1" x-mailru="1356",Russian Travel Guide HD
+https://msk2.peers.tv/streaming/rustravel/16/copy/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3OTM1MTEzNjYsImlhdCI6MTc5MzQyNDk2NiwiY2lkIjo4MSwidWlkIjoxMDg5NDkzMjc1LCJyZWciOmZhbHNlLCJpcCI6MjU0OTMyMjIxOH0.YozlMR5b7NuhlLnkqCCaHZZYvCnhjuD53TCKBABnYig
 #EXTINF:-1 group-title="Познавательные" x-logo="cf865128603e" x-hls="1",Ярмарка ТВ
 https://api.alpaca.t62a.com/hls/9104/index.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="4777f7578511" x-hls="1",SYNERGY TV
@@ -550,6 +547,8 @@ https://wonder-samsung-uk.amagi.tv/playlist.m3u8
 okru:380791823951
 #EXTINF:-1 group-title="Познавательные" x-logo="600f23307f5e" x-hls="1" x-mailru="2324",Дайвинг TV
 okru:665237593752
+#EXTINF:-1 group-title="Познавательные" x-logo="a632b61a7b83" x-hls="1" x-epg="zhivi-aktivno",Живи Активно
+https://msk2.peers.tv/streaming/zhivi_aktivno_hd/16/tvrecw/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3OTM1MTEzNjcsImlhdCI6MTc5MzQyNDk2NywiY2lkIjo4MSwidWlkIjoxMDg5NDkzMjc4LCJyZWciOmZhbHNlLCJpcCI6MjU0OTMyMjIxOH0.tglrPnk8VYfnQO_cTGpBtE_jkkiJz6FGDVr0owraaIg
 #EXTINF:-1 group-title="Музыка" x-logo="bridge-tv" x-hls="1" x-mailru="853" x-epg="bridge-tv",Bridge
 https://autopilot.catcast.tv/mobile.m3u8?channel_id=42116&token=a50c14ba3c2f8412f8d17226b2626134
 http://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/tracks-v1a1/mono.ts.m3u8
@@ -643,6 +642,8 @@ https://eco.streams.ovh:8081/barazatv/index.m3u8
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="41f19e79d58b" x-hls="1",Company TV
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Музыка" x-logo="2dccc091fdc9" x-hls="1",Spirit TV
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="TVM3" x-hls="1",TVM3
 https://edge12.vedge.infomaniak.com/livecast/ik:tvm3/manifest.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="f841b8643337" x-hls="1",Fresh TV
