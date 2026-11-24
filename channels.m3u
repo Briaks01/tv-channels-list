@@ -38,8 +38,8 @@ vitrina:https://player.mediavitrina.ru/ctc_v2/ctc_ext/smotret_tv_web/player.html
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 http://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Федеральные" x-logo="domashny" x-hls="1" x-mailru="1051",Домашний
-okru:13462621396600
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+okru:13462621396600
 #EXTINF:-1 group-title="Федеральные" x-logo="6f38a638c1d9" x-hls="1" x-mailru="1091",ТВ-3
 okru:9344408428150
 #EXTINF:-1 group-title="Федеральные" x-logo="piatnica" x-hls="1" x-mailru="1671",Пятница!
@@ -90,13 +90,11 @@ okru:2904875671059
 #EXTINF:-1 group-title="Детские" x-logo="533eb517e108" x-hls="1" x-mailru="2424",Советские мультфильмы
 okru:17068812803590
 #EXTINF:-1 group-title="Детские" x-logo="38718b8e877b" x-hls="1",Ключайка
-https://bl.rutube.ru/livestream/ed497bdb28846536f3928849f8f7e469/index.m3u8?s=5bmGVgkpdw41NK1HJBbZ-A&e=2095513795&scheme=https
+https://bl.rutube.ru/livestream/ed497bdb28846536f3928849f8f7e469/index.m3u8?s=V-_2awmxGKoKCHwzkxNjZg&e=2095558962&scheme=https
 #EXTINF:-1 group-title="Детские" x-logo="135f8be91fb6" x-hls="1",Детское кино International
 https://kino-1.catcast.tv/content/40426/index.m3u8
 #EXTINF:-1 group-title="Детские" x-logo="3a762695a47e" x-hls="1",Том и Джерри
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=43075&token=9a002fa6642834d946ef0fe0941330d0
-#EXTINF:-1 group-title="Детские" x-logo="ebe9460d5a73" x-hls="1",Балапан
-https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=43075&token=56ade9747afe457c095f99aeef6df05c
 #EXTINF:-1 group-title="Детские" x-logo="8488bc3c1491" x-hls="1",Тамыр
 https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
 #EXTINF:-1 group-title="Детские" x-logo="41d989c508f1" x-hls="1" x-mailru="2426",Сказки Зайки
@@ -127,6 +125,8 @@ https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" x-logo="mosfilm" x-hls="1" x-mailru="3161",Мосфильм. Золотая коллекция
 http://185.121.1.163:8083/Mosfilm/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" x-logo="ntv-xit" x-hls="1" x-mailru="2353",НТВ Хит
+http://cdn2.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" x-logo="russky-bestseller" x-hls="1" x-mailru="1367",Русский бестселлер
 http://flussonic.mkpnet.ru/tv-ccf8c891702508a7/tracks-v1a1l1/mono.ts.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" x-logo="russky-roman" x-mailru="2174",Русский роман
@@ -183,7 +183,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="06e0174a1200" x-hls="1",STAR MEDIA
 https://bl.rutube.ru/livestream/988ec7330fa38c8a1e5980ba7d02dbbe/index.m3u8?s=CQbw1xTFIs7hIlmYHzektQ&e=2093203954&scheme=https
-https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=6m4EWFkes3PsYT_kTS9ynw&e=2095513815&scheme=https
+https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=kkVqJgR5LARXvMXj9zQfMA&e=2095558985&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="fbb2dd04eb65" x-hls="1",Кино и Жизнь
 https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=uJIthJwuIgEToObHHa9kSg&e=2093203956&scheme=https
 okru:7496346312218
@@ -222,32 +222,52 @@ okru:10101796707927
 okru:16745895829219
 #EXTINF:-1 group-title="Развлекательные" x-logo="dffaf0bd8cb6" x-hls="1",Кинозал 4
 okru:16745902710499
+#EXTINF:-1 group-title="Развлекательные" x-logo="3ead1bdf3bd1" x-hls="1" x-mailru="1241",Кинохит
+https://vsd204.okcdn.ru/hls/21822201596643.m3u8/sig/-q4hnke2aBo/expires/1795645380356/srcIp/10.218.83.199/urls/185.180.203.109/clientType/36/srcAg/UNKNOWN/mid/17869045450723/video.m3u8?p
+https://vsd204.okcdn.ru/cmaf/21822201596643/sig/-q4hnke2aBo/expires/1795645380356/srcIp/10.218.83.199/urls/185.180.203.109/clientType/36/srcAg/UNKNOWN/mid/17869045450723/get/hls_17869045450723.nL_AJ8Qeir0.m3u8
+https://vsd208.okcdn.ru/hls/21822201596643.m3u8/sig/l7WDwnj9GJQ/expires/1795645380356/srcIp/127.0.0.1/urls/178.237.23.89/clientType/36/srcAg/UNKNOWN/mid/17869045450723/video.m3u8?p
+https://vsd208.okcdn.ru/cmaf/21822201596643/sig/l7WDwnj9GJQ/expires/1795645380356/srcIp/127.0.0.1/urls/178.237.23.89/clientType/36/srcAg/UNKNOWN/mid/17869045450723/get/hls_17869045450723.nL_AJ8Qeir0.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="e217dcd7a470" x-hls="1",Кино Джем
-https://vsd183.okcdn.ru/hls/21763254258403.m3u8/sig/aka3Gl8saeM/expires/1795600210657/srcIp/10.217.45.14/urls/176.112.172.115/clientType/36/srcAg/UNKNOWN/mid/17831356549091/video.m3u8?p
-https://vsd183.okcdn.ru/cmaf/21763254258403/sig/aka3Gl8saeM/expires/1795600210657/srcIp/10.217.45.14/urls/176.112.172.115/clientType/36/srcAg/UNKNOWN/mid/17831356549091/get/hls_17831356549091.FUMpfb6AQJM.m3u8
-https://vsd183.okcdn.ru/hls/21763254258403.m3u8/sig/vxjZ8gE35yU/expires/1795600210657/srcIp/127.0.0.1/urls/176.112.172.115/clientType/36/srcAg/UNKNOWN/mid/17831356549091/video.m3u8?p
-https://vsd183.okcdn.ru/cmaf/21763254258403/sig/vxjZ8gE35yU/expires/1795600210657/srcIp/127.0.0.1/urls/176.112.172.115/clientType/36/srcAg/UNKNOWN/mid/17831356549091/get/hls_17831356549091.FUMpfb6AQJM.m3u8
+https://vsd79.okcdn.ru/hls/21826572389091.m3u8/sig/ZsB6UYkCqPE/expires/1795645380307/srcIp/10.217.102.26/urls/178.237.23.115/clientType/36/srcAg/UNKNOWN/mid/17871545976803/video.m3u8?p
+https://vsd79.okcdn.ru/cmaf/21826572389091/sig/ZsB6UYkCqPE/expires/1795645380307/srcIp/10.217.102.26/urls/178.237.23.115/clientType/36/srcAg/UNKNOWN/mid/17871545976803/get/hls_17871545976803.3ppgLmcDhzU.m3u8
+https://vsd106.okcdn.ru/hls/21826572389091.m3u8/sig/PHQhRflSXjc/expires/1795645380307/srcIp/127.0.0.1/urls/185.226.55.75/clientType/36/srcAg/UNKNOWN/mid/17871545976803/video.m3u8?p
+https://vsd106.okcdn.ru/cmaf/21826572389091/sig/PHQhRflSXjc/expires/1795645380307/srcIp/127.0.0.1/urls/185.226.55.75/clientType/36/srcAg/UNKNOWN/mid/17871545976803/get/hls_17871545976803.3ppgLmcDhzU.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="762f96e246a9" x-hls="1",Киносборник
-https://vsd92.okcdn.ru/hls/19215851195060.m3u8/sig/zYkn8dZeHI0/expires/1795600210908/srcIp/10.217.45.10/urls/178.237.23.88/clientType/36/srcAg/UNKNOWN/mid/16786448664500/video.m3u8?p
-https://vsd92.okcdn.ru/cmaf/19215851195060/sig/zYkn8dZeHI0/expires/1795600210908/srcIp/10.217.45.10/urls/178.237.23.88/clientType/36/srcAg/UNKNOWN/mid/16786448664500/get/hls_16786448664500.WYqsS5Cl1XU.m3u8
-https://vsd206.okcdn.ru/hls/19215851195060.m3u8/sig/8oVH2XJHJFs/expires/1795600210910/srcIp/127.0.0.1/urls/185.180.203.58/clientType/36/srcAg/UNKNOWN/mid/16786448664500/video.m3u8?p
-https://vsd206.okcdn.ru/cmaf/19215851195060/sig/8oVH2XJHJFs/expires/1795600210910/srcIp/127.0.0.1/urls/185.180.203.58/clientType/36/srcAg/UNKNOWN/mid/16786448664500/get/hls_16786448664500.WYqsS5Cl1XU.m3u8
+https://vsd283.okcdn.ru/hls/19215851195060.m3u8/sig/-M0XBNYyjBU/expires/1795645380332/srcIp/10.217.45.6/urls/176.112.172.117/clientType/36/srcAg/UNKNOWN/mid/16786448664500/video.m3u8?p
+https://vsd283.okcdn.ru/cmaf/19215851195060/sig/-M0XBNYyjBU/expires/1795645380332/srcIp/10.217.45.6/urls/176.112.172.117/clientType/36/srcAg/UNKNOWN/mid/16786448664500/get/hls_16786448664500.WYqsS5Cl1XU.m3u8
+https://vsd206.okcdn.ru/hls/19215851195060.m3u8/sig/0T9ZVRj9nYo/expires/1795645380332/srcIp/127.0.0.1/urls/178.237.23.88/clientType/36/srcAg/UNKNOWN/mid/16786448664500/video.m3u8?p
+https://vsd206.okcdn.ru/cmaf/19215851195060/sig/0T9ZVRj9nYo/expires/1795645380332/srcIp/127.0.0.1/urls/178.237.23.88/clientType/36/srcAg/UNKNOWN/mid/16786448664500/get/hls_16786448664500.WYqsS5Cl1XU.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="6450abaae9e6" x-hls="1",Кинодром
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=3391
 #EXTINF:-1 group-title="Развлекательные" x-logo="689b913278e4" x-hls="1",Киномания
-https://vsd287.okcdn.ru/hls/19919020362379.m3u8/sig/U-7lktoLero/expires/1795600209631/srcIp/10.218.83.204/urls/176.112.172.70/clientType/36/srcAg/UNKNOWN/mid/16913102620555/video.m3u8?p
-https://vsd287.okcdn.ru/cmaf/19919020362379/sig/U-7lktoLero/expires/1795600209631/srcIp/10.218.83.204/urls/176.112.172.70/clientType/36/srcAg/UNKNOWN/mid/16913102620555/get/hls_16913102620555.E33X7h_FUjA.m3u8
-https://vsd275.okcdn.ru/hls/19919020362379.m3u8/sig/6sV3mCYzUSg/expires/1795600209631/srcIp/127.0.0.1/urls/176.112.172.70/clientType/36/srcAg/UNKNOWN/mid/16913102620555/video.m3u8?p
-https://vsd275.okcdn.ru/cmaf/19919020362379/sig/6sV3mCYzUSg/expires/1795600209631/srcIp/127.0.0.1/urls/176.112.172.70/clientType/36/srcAg/UNKNOWN/mid/16913102620555/get/hls_16913102620555.E33X7h_FUjA.m3u8
+https://vsd287.okcdn.ru/hls/19919020362379.m3u8/sig/8_9G3mxBYqQ/expires/1795645380291/srcIp/10.218.83.201/urls/178.237.29.17/clientType/36/srcAg/UNKNOWN/mid/16913102620555/video.m3u8?p
+https://vsd287.okcdn.ru/cmaf/19919020362379/sig/8_9G3mxBYqQ/expires/1795645380291/srcIp/10.218.83.201/urls/178.237.29.17/clientType/36/srcAg/UNKNOWN/mid/16913102620555/get/hls_16913102620555.E33X7h_FUjA.m3u8
+https://vsd287.okcdn.ru/hls/19919020362379.m3u8/sig/jjYGzdLrlJw/expires/1795645380292/srcIp/127.0.0.1/urls/178.237.29.17/clientType/36/srcAg/UNKNOWN/mid/16913102620555/video.m3u8?p
+https://vsd287.okcdn.ru/cmaf/19919020362379/sig/jjYGzdLrlJw/expires/1795645380292/srcIp/127.0.0.1/urls/178.237.29.17/clientType/36/srcAg/UNKNOWN/mid/16913102620555/get/hls_16913102620555.E33X7h_FUjA.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="cdeaa443a656" x-hls="1",MIX FILMS
 okru:10604314500788
 #EXTINF:-1 group-title="Развлекательные" x-logo="Kinomix" x-hls="1",Kinomix
-https://vsd235.okcdn.ru/hls/21611864525539.m3u8/sig/tem3O0icccY/expires/1795600210826/srcIp/10.217.45.10/urls/185.180.203.113/clientType/36/srcAg/UNKNOWN/mid/17739229972451/video.m3u8?p
-https://vsd235.okcdn.ru/cmaf/21611864525539/sig/tem3O0icccY/expires/1795600210826/srcIp/10.217.45.10/urls/185.180.203.113/clientType/36/srcAg/UNKNOWN/mid/17739229972451/get/hls_17739229972451.n44gfvowb9A.m3u8
-https://vsd212.okcdn.ru/hls/21611864525539.m3u8/sig/1lFAsk4A5g0/expires/1795600210826/srcIp/127.0.0.1/urls/95.163.35.106/clientType/36/srcAg/UNKNOWN/mid/17739229972451/video.m3u8?p
-https://vsd212.okcdn.ru/cmaf/21611864525539/sig/1lFAsk4A5g0/expires/1795600210826/srcIp/127.0.0.1/urls/95.163.35.106/clientType/36/srcAg/UNKNOWN/mid/17739229972451/get/hls_17739229972451.n44gfvowb9A.m3u8
+https://vsd248.okcdn.ru/hls/21611864525539.m3u8/sig/JWTN9Lew04M/expires/1795645380692/srcIp/10.218.83.200/urls/178.237.23.112/clientType/36/srcAg/UNKNOWN/mid/17739229972451/video.m3u8?p
+https://vsd248.okcdn.ru/cmaf/21611864525539/sig/JWTN9Lew04M/expires/1795645380692/srcIp/10.218.83.200/urls/178.237.23.112/clientType/36/srcAg/UNKNOWN/mid/17739229972451/get/hls_17739229972451.n44gfvowb9A.m3u8
+https://vsd248.okcdn.ru/hls/21611864525539.m3u8/sig/nh7jHHCIrM4/expires/1795645380692/srcIp/127.0.0.1/urls/178.237.23.112/clientType/36/srcAg/UNKNOWN/mid/17739229972451/video.m3u8?p
+https://vsd248.okcdn.ru/cmaf/21611864525539/sig/nh7jHHCIrM4/expires/1795645380692/srcIp/127.0.0.1/urls/178.237.23.112/clientType/36/srcAg/UNKNOWN/mid/17739229972451/get/hls_17739229972451.n44gfvowb9A.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="95156b5260fd" x-hls="1",Кошмар HD
 okru:17608828263942
+#EXTINF:-1 group-title="Развлекательные" x-logo="c090930e3843" x-hls="1",Horror HD
+https://vsd268.okcdn.ru/hls/19169490700816.m3u8/sig/b0yhUSQfCNE/expires/1795645380649/srcIp/10.218.83.202/urls/178.237.23.60/clientType/36/srcAg/UNKNOWN/mid/17269757789968/video.m3u8?p
+https://vsd268.okcdn.ru/cmaf/19169490700816/sig/b0yhUSQfCNE/expires/1795645380649/srcIp/10.218.83.202/urls/178.237.23.60/clientType/36/srcAg/UNKNOWN/mid/17269757789968/get/hls_17269757789968.m0xCXsnd8mQ.m3u8
+https://vsd268.okcdn.ru/hls/19169490700816.m3u8/sig/5BHCm2-CRyo/expires/1795645380651/srcIp/127.0.0.1/urls/185.226.55.75/clientType/36/srcAg/UNKNOWN/mid/17269757789968/video.m3u8?p
+https://vsd268.okcdn.ru/cmaf/19169490700816/sig/5BHCm2-CRyo/expires/1795645380651/srcIp/127.0.0.1/urls/185.226.55.75/clientType/36/srcAg/UNKNOWN/mid/17269757789968/get/hls_17269757789968.m0xCXsnd8mQ.m3u8
+#EXTINF:-1 group-title="Развлекательные" x-logo="60eb8117fd9e" x-hls="1",Ужас ТВ
+https://vsd103.okcdn.ru/hls/20057408801482.m3u8/sig/F9Sszi6sU2E/expires/1795645380890/srcIp/10.217.45.10/urls/178.237.29.196/clientType/36/srcAg/UNKNOWN/mid/17114615597002/video.m3u8?p
+https://vsd103.okcdn.ru/cmaf/20057408801482/sig/F9Sszi6sU2E/expires/1795645380890/srcIp/10.217.45.10/urls/178.237.29.196/clientType/36/srcAg/UNKNOWN/mid/17114615597002/get/hls_17114615597002.5R2LwwpJP9o.m3u8
+https://vsd266.okcdn.ru/hls/20057408801482.m3u8/sig/dr3N-nlpcA8/expires/1795645380889/srcIp/127.0.0.1/urls/185.226.55.118/clientType/36/srcAg/UNKNOWN/mid/17114615597002/video.m3u8?p
+https://vsd266.okcdn.ru/cmaf/20057408801482/sig/dr3N-nlpcA8/expires/1795645380889/srcIp/127.0.0.1/urls/185.226.55.118/clientType/36/srcAg/UNKNOWN/mid/17114615597002/get/hls_17114615597002.5R2LwwpJP9o.m3u8
+#EXTINF:-1 group-title="Развлекательные" x-logo="2d199c5df529" x-hls="1",Жесть ТВ
+https://vsd242.okcdn.ru/hls/20481162021562.m3u8/sig/1uFELnsdq_0/expires/1795645380650/srcIp/10.218.83.41/urls/178.237.29.198/clientType/36/srcAg/UNKNOWN/mid/17894828754874/video.m3u8?p
+https://vsd242.okcdn.ru/cmaf/20481162021562/sig/1uFELnsdq_0/expires/1795645380650/srcIp/10.218.83.41/urls/178.237.29.198/clientType/36/srcAg/UNKNOWN/mid/17894828754874/get/hls_17894828754874.7pz3hTcsFTo.m3u8
+https://vsd79.okcdn.ru/hls/20481162021562.m3u8/sig/TESGc5JjNeM/expires/1795645380651/srcIp/127.0.0.1/urls/178.237.29.198/clientType/36/srcAg/UNKNOWN/mid/17894828754874/video.m3u8?p
+https://vsd79.okcdn.ru/cmaf/20481162021562/sig/TESGc5JjNeM/expires/1795645380651/srcIp/127.0.0.1/urls/178.237.29.198/clientType/36/srcAg/UNKNOWN/mid/17894828754874/get/hls_17894828754874.7pz3hTcsFTo.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="Scream" x-hls="1" x-mailru="3291",Scream
 okru:16747015839459
 #EXTINF:-1 group-title="Развлекательные" x-logo="3b08472b1c55" x-hls="1" x-mailru="2487",Победа
@@ -257,13 +277,13 @@ okru:13251479608919
 #EXTINF:-1 group-title="Развлекательные" x-logo="9f4144922a05" x-hls="1",Фантастические фильмы
 okru:14019744177775
 #EXTINF:-1 group-title="Развлекательные" x-logo="4d21532658eb" x-hls="1",ТВ Бум
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=49692&token=11926dea4db53ddaa286ad547aadfc3c
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=49692&token=eccdc7dc191a38c903216684580f77da
 #EXTINF:-1 group-title="Развлекательные" x-logo="4aad4f0e2081" x-hls="1",STR TV
 okru:14572047113839
 #EXTINF:-1 group-title="Развлекательные" x-logo="584d5e510399" x-hls="1",Городок
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=39574&token=2064ebd9a3efa6aaca73ceb2d640735b&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=39574&token=095169f18e050e24ce66183448db03db&server=v2.catcast.tv
 #EXTINF:-1 group-title="Развлекательные" x-logo="cd554a9467cb" x-hls="1",Любимые фильмы
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=40102&token=2f360749097f0a0e70c03570c48ed10f
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=40102&token=d957fb65ed9ac611abd410d61f8a43f3
 #EXTINF:-1 group-title="Развлекательные" x-logo="843a75c728b8" x-hls="1",СССР ТВ
 okru:10497024859826
 #EXTINF:-1 group-title="Развлекательные" x-logo="40121887cadb" x-hls="1",Советские фильмы
@@ -273,9 +293,9 @@ https://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="Pro100TV" x-hls="1" x-mailru="2896",Pro100TV
 okru:12715185872555
 #EXTINF:-1 group-title="Развлекательные" x-logo="VHS" x-hls="1",VHS
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=40675&token=9d6938f95edcee299ec07f69c24f006c
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=40675&token=090401944cda381e6964fac5f37cabb3
 #EXTINF:-1 group-title="Развлекательные" x-logo="1b7a2f11949d" x-hls="1",Тномер
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=39971&token=5f4d1eed2c2a6502951ff53865684c03
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=39971&token=4313343cb6e9116b4764e96d5a482579
 #EXTINF:-1 group-title="Развлекательные" x-logo="3a4e88cbe77f" x-hls="1" x-mailru="1717",8 канал
 https://cdn-01.bonus-tv.ru/8kanal/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="def4107c0dc8" x-hls="1",Arirang Korea
@@ -289,15 +309,17 @@ https://dvrfl07.bozztv.com/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="ff7dca847e0e" x-hls="1",Уже видел
 okru:7625546538508
 #EXTINF:-1 group-title="Развлекательные" x-logo="8d0223ec1f29" x-hls="1",Кино Экшен
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=36517&token=3eff66dbc9efb72838b25487fc012a0b&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=36517&token=54e755283eb1799172bfe96c21fb4834&server=v2.catcast.tv
 #EXTINF:-1 group-title="Развлекательные" x-logo="d062681c899d" x-hls="1",Кино Мистика
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=39009&token=6661ab0da0d54bfbe12acf1238944622&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=39009&token=b25fa08666582306afa24d91f357e5b9&server=v2.catcast.tv
 #EXTINF:-1 group-title="Развлекательные" x-logo="99b2ee8b13ee" x-hls="1" x-mailru="1083",Кино Комедия
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=38847&token=4f9316db532234c0634cf683e1339f07&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=38847&token=32b5ed5b0a4c8a52d46a93cf8961b723&server=v2.catcast.tv
 #EXTINF:-1 group-title="Развлекательные" x-logo="fc7d702496ce" x-hls="1",Кино Детектив
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=40686&token=86db83e8c9b9cf6031000825a50d98f2&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=40686&token=26d73f83e01fa74822bb9737b8f7ffba&server=v2.catcast.tv
 #EXTINF:-1 group-title="Развлекательные" x-logo="37ff8e61fd73" x-hls="1",Индийские фильмы
 https://s7.iptv-24.net/1444/index.m3u8
+#EXTINF:-1 group-title="Развлекательные" x-logo="87fdedbbff0b" x-hls="1",Дорамы
+https://bl.rutube.ru/livestream/5e3edd063411550ed6b67a8c0d7c96ea/index.m3u8?s=ZluPqqQ3s8IRW4cqaL1SRQ&e=2095558995&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="d7361553db37" x-hls="1" x-mailru="3217",Кинеко
 https://s7.iptv-24.net/1273/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" x-logo="97084a44640c" x-hls="1" x-mailru="2252",7 TV
@@ -309,7 +331,7 @@ okru:2961812233904
 #EXTINF:-1 group-title="Развлекательные" x-logo="569f2e0b9351" x-hls="1",Твоё ТВ Юмор
 okru:9349912796790
 #EXTINF:-1 group-title="Развлекательные" x-logo="e01e4001361d" x-hls="1",Центральное телевидение (ЦТВ)
-https://bl.rutube.ru/livestream/d751dcb6c61658ec76461bc166d6e529/index.m3u8?s=e-ir3_PkXmwzyQBqa8xVBQ&e=2095513830&scheme=https
+https://bl.rutube.ru/livestream/d751dcb6c61658ec76461bc166d6e529/index.m3u8?s=fikFW-fGoZLyckYX0dZnwA&e=2095559002&scheme=https
 #EXTINF:-1 group-title="Развлекательные" x-logo="a4fde40e54fa" x-hls="1",ТВЦ
 okru:11431932468811
 #EXTINF:-1 group-title="Развлекательные" x-logo="54f06b9cb6d1" x-hls="1" x-mailru="3203",Звезда Плюс
@@ -371,7 +393,7 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="sportivny" x-hls="1",ТВ Спорт
 http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="60786a8ddc64" x-hls="1",Телеканал Волейбол
-https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=SQPODIDf1SzfLxr6I3a16Q&e=2095513803&scheme=https
+https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=e-4TSGjqeCjp7G770lnOGw&e=2095558972&scheme=https
 #EXTINF:-1 group-title="Спорт" x-logo="325df3d9b41d" x-hls="1",Futbol TV
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" x-logo="d7ef770ab185" x-hls="1",FITE TV
@@ -478,6 +500,8 @@ http://185.46.16.239:8000/Istoriya
 https://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="neizvestnaya-planeta" x-hls="1" x-mailru="2291",Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
+#EXTINF:-1 group-title="Познавательные" x-logo="neizvestnaya-rosia" x-hls="1",Неизвестная Россия
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="otkryty-mir" x-hls="1" x-mailru="2166",Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
 https://v4.proofix.ru/0mir/index.m3u8
@@ -501,7 +525,7 @@ https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="0f304935305b" x-hls="1",Мособр ТВ
 okru:3516701089374
 #EXTINF:-1 group-title="Познавательные" x-logo="a5932fea4888" x-hls="1",Русский мир
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=42204&token=28b17baf44c07ef991bcf66733feaf4e
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=42204&token=5991c7749183f100330024b4d64a2e5e
 #EXTINF:-1 group-title="Познавательные" x-logo="175d9e6a9d4e" x-hls="1",ЛАДА
 https://live.kinescopecdn.net/on-air/ba0fa61f-647c-4ee0-9992-89f6744efa86/c52bb34c-9780-4b99-91ae-b2424cccd556/master.m3u8
 #EXTINF:-1 group-title="Познавательные" x-logo="ecd1ba62aaa5" x-hls="1",Хузур ТВ
@@ -528,7 +552,7 @@ okru:380791823951
 okru:665237593752
 #EXTINF:-1 group-title="Музыка" x-logo="bridge-tv" x-hls="1" x-mailru="853",Bridge
 http://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/tracks-v1a1/mono.ts.m3u8
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=42116&token=179fe8634167c2207d032a5e083a4d3d
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=42116&token=f819c7495cf12a86fbcc857a21cd320c
 #EXTINF:-1 group-title="Музыка" x-logo="DanceHits80" x-hls="1",DanceHits80
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="tnt-music" x-hls="1",FON music
@@ -556,7 +580,9 @@ okru:1488951909894
 #EXTINF:-1 group-title="Музыка" x-logo="3af96b1ebe06" x-hls="1",TMF RUS
 okru:6195706404393
 #EXTINF:-1 group-title="Музыка" x-logo="60b765933965" x-hls="1",MTV Russia
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=45105&token=18deaaa47466dcd87b49706838148078&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=45105&token=9cd60c369b075c5150261a32cfeed35d&server=v2.catcast.tv
+#EXTINF:-1 group-title="Музыка" x-logo="SONGTV" x-hls="1",SONGTV
+https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="9ca8ad4f7271" x-hls="1",OldClip TV
 okru:15655554653750
 #EXTINF:-1 group-title="Музыка" x-logo="f1b04cddb63c" x-hls="1",Индийские песни
@@ -630,7 +656,7 @@ okru:3853054647979
 #EXTINF:-1 group-title="Музыка" x-logo="330699e5edce" x-hls="1",Курай
 https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="b5dbe6f6ad93" x-hls="1" x-mailru="2367",Жар Птица
-https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=iJWNZhZr43UCS-fUtH4M7Q&e=2095513801&scheme=https
+https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=5RRVn4RPtzqDPGEF9wn17g&e=2095558969&scheme=https
 #EXTINF:-1 group-title="Музыка" x-logo="4f0002d8fa13" x-hls="1",Русская Волна
 okru:2386259484372
 #EXTINF:-1 group-title="Музыка" x-logo="1HD" x-hls="1",1HD
@@ -660,13 +686,13 @@ https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="fc650a1a7b77" x-hls="1",Power Love
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" x-logo="73f9111f9adb" x-hls="1",MTV HITS
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=50344&token=2d2ad49f31dbb58017c72b79b9319010&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=50344&token=bc4936e63057c549e36803fae1cfd01a&server=v2.catcast.tv
 #EXTINF:-1 group-title="Музыка" x-logo="7ad2e0ea2ed7" x-hls="1",MTV 00s
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=50344&token=2d2ad49f31dbb58017c72b79b9319010&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=50344&token=bc4936e63057c549e36803fae1cfd01a&server=v2.catcast.tv
 #EXTINF:-1 group-title="Музыка" x-logo="ed729f563da5" x-hls="1",MTV 90'S
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=46538&token=f8ea3b36b6226fce612f74612894976f&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=46538&token=51312faff5bdd810b70bcef00b735cca&server=v2.catcast.tv
 #EXTINF:-1 group-title="Музыка" x-logo="d053fd2f1642" x-hls="1",MTV 80'S
-https://autopilot.catcast.tv/mobile.m3u8?channel_id=41188&token=17eb48e11a9e900db996f51a9138611a&server=v2.catcast.tv
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=41188&token=14e38aa9e0655db750bd0c4f987b852b&server=v2.catcast.tv
 #EXTINF:-1 group-title="Музыка" x-logo="3e145275361a" x-hls="1",Русский корабль
 okru:8360295472656
 #EXTINF:-1 group-title="Музыка" x-logo="3741e91c733e" x-hls="1",9 Волна
@@ -759,8 +785,6 @@ https://tw2ywfm7jbp.a.trbcdn.net/livemaster/7phjk_live-papd7z4v92.smil/playlist.
 https://rt-vlg-yola-htlive.cdn.ngenix.net/hls/CH_R03_METR/variant.m3u8
 #EXTINF:-1 group-title="Региональные" x-logo="mamonttv" x-hls="1",Мамонт ТВ
 http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_MAMONT/variant.m3u8
-#EXTINF:-1 group-title="Региональные" x-logo="pinsk-tv",Пинск ТВ
-http://178.124.207.1:1780/tvp
 #EXTINF:-1 group-title="Региональные" x-logo="sreda" x-hls="1",Среда
 https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O-Abonlwf-bYzT5hrypYg&e=2070623505&scheme=https
 #EXTINF:-1 group-title="Региональные" x-logo="trk-yugansk" x-hls="1",ТРК Юганск
